@@ -1,5 +1,5 @@
 @server = https://hypebuggy-supreme-tribble-5676pvjxrw5fvv5v-8081.preview.app.github.dev
-@emp = {{server}}/api/employees
+@emp = {{server}}/api/emps
 ###
 GET {{emp}}
 ###
@@ -7,7 +7,7 @@ POST {{emp}}
 Content-Type: application/json
 
 {
-    "firstName": "Bilbo",
-    "lastName": "Baggins",
-    "description": "burglar" 
+    "firstName": "Hans",
+    "lastName": "Limaylla",
+    "description": "Estudiante" 
 }
